@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+#photo_container .card> img {
+    height: 250px;
+    object-fit: cover;
+}
+main {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#card_container:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 0px #0000005f;
+}
+
+#home_logo:hover{
+    cursor: pointer;
+    color: rgb(202, 201, 201) !important;
+}
